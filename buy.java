@@ -14,13 +14,8 @@ public class buy {
         System.out.print("Money");
         double money = Buyy.nextDouble();
         int Stamp = (int) (money / 50);
-        if (money == (int)money){
-            System.out.println((int)money);
-        }
-        else{
-            System.out.println(money);
-        }
         System.out.println("You got "+Stamp+" stamp(s)");
     }
 }
+
 
