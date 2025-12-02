@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class tryhard {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t1 = sc.nextInt(), t2 = sc.nextInt() , Hour=0 , Min=0 ,Second=0 ;
+        int t1 = sc.nextInt("Enter your exercise time 1"), t2 = sc.nextInt("Enter your exercise time 2") , Hour=0 , Min=0 ,Second=0 ;
         int First = t1 + t2;
         Hour = First / 3600;
         First %= 3600;
@@ -20,3 +20,4 @@ public class tryhard {
         System.out.println("It is "+ Hour +" hours "+Min+" minutes and "+Second+" seconds.");
     }
 }
+
