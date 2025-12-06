@@ -17,6 +17,7 @@ public class temp {
         temp = sc.nextDouble();
         System.out.print("Enter humidity (%): ");
         hum = sc.nextDouble();
+        System.out.println("");
         if (temp > 37.5){
             System.out.println("Warning: High temperature!");
         }
@@ -31,3 +32,4 @@ public class temp {
         }
     }
 }
+
